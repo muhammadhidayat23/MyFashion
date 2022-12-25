@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: poppins;
+}
+
+:root {
+    --primary-color: #200E32;
+    --secondary-color: #837F88;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-toggler:focus {
+    color: var(--white-color)
+}
+
+.navbar-nav a {
+    margin-left: 50px;
+    color: var(--primary-color) !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Hero */
+
+.hero-text {
+    color: var(--primary-color);
+}
+
+.hero-text p {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.hero-text h1 {
+    font-size: 144px;
+    font-weight: 900;
+}
+
+
+/* Category */
+
+.card {
+    border: none !important;
+}
+
+.category {
+    margin-top: 137px !important;
+}
+
+.title h2 {
+    margin-bottom: 76px;
+}
+
+.jacket {
+    background-color: #DED9FB !important;
+}
+
+.jacket img {
+    width: 560px;
+}
+
+.jacket h3 {
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.jacket p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.t-shirt {
+    background-color: #F2EDF1 !important;
+}
+
+.t-shirt img {
+    width: 300px;
+    margin-left: 245px;
+    margin-top: -215px;
+}
+
+.t-shirt h3 {
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.t-shirt p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.jeans {
+    background-color: #D8E8F8 !important;
+}
+
+.jeans img {
+    width: 415px;
+    margin-left: 130px;
+    margin-top: -200px;
+}
+
+.jeans h3 {
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.jeans p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.teks-content h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.teks-content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.btn-secondary {
+    height: 56px;
+    width: 149px;
+    border-radius: 49px !important;
+    color: var(--primary-color) !important;
+    background-color: white !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+
+/* footer */
+
+footer {
+    height: 282px;
+    margin-top: 245px;
+    background-color: #F4F2FF;
+}
+
+footer h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-top: 27px;
+}
+
+footer p {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.logo img {
+    margin-top: 42px;
+}
+
+@media only screen and (max-width:667px) {
+    .hero-text p {
+        font-size: 40px;
+    }
+    .hero-text h1 {
+        font-size: 84px;
+    }
+    .cart-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .category-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .t-shirt img {
+        width: 200px;
+        margin-left: 160px;
+        margin-top: -115px;
+    }
+    .jeans img {
+        width: 300px;
+        margin-left: 35px;
+        margin-top: -130px;
+    }
+    .teks-content h2 {
+        font-size: 20px;
+    }
+    .teks-content p {
+        font-size: 10px;
+    }
+    .btn-model {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer h2 {
+        font-size: 32px;
+    }
+}
